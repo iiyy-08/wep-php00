@@ -87,9 +87,9 @@
 	mysqli_query($conn, $sql);
 	
 	// 테스트용 사용자 쿼리
-	$sql = "INSERT INTO users (username, password) VALUES
-        ('user1', 'pass1'),
-        ('user2', 'pass2')";
+	$sql = "INSERT INTO users (user_id, username, password) VALUES
+        ('202168058', '양인영', 'pass1'),
+        ('1', 'user2', 'pass2')";
 	mysqli_query($conn, $sql);
 	
 	$sql = "INSERT INTO records (user_id, word_id, is_correct) VALUES
@@ -101,11 +101,11 @@
 	mysqli_query($conn, $sql);
 
 	$sql = "INSERT INTO records (user_id, word_id, is_correct) VALUES
-        (2, 1, 1),
-        (2, 2, 1),
-        (2, 3, 1),
-        (2, 4, 1),
-        (2, 5, 0)";
+        (202168058, 1, 1),
+        (202168058, 2, 1),
+        (202168058, 3, 1),
+        (202168058, 4, 1),
+        (202168058, 5, 1)";
 	mysqli_query($conn, $sql);
 	
 
@@ -116,3 +116,4 @@
 	mysqli_close($conn);
 	
 ?>
+
