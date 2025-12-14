@@ -19,6 +19,12 @@ body {
     text-align: center;
 }
 
+.logo {
+    margin-bottom: 10px;
+    width: 150px; 
+    height: auto;
+}
+
 .form-table {
     margin: 0 auto;
     border-collapse: collapse;

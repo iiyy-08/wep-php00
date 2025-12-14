@@ -14,7 +14,7 @@
 	
 	<head>
 		<meta charset="UTF-8">
-		<title>와우</title>
+		<title>일본어 단어 공부</title>
 		<link rel="stylesheet" href="JP_P.css">
 	</head>
 	

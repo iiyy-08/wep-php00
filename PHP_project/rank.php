@@ -45,7 +45,7 @@
 			<tr>
 				<th>순위</th>
 				<th>ID</th>
-				<th>이름</th>
+				<th>닉네임</th>
 				<th>점수</th>
 			</tr>
 
